@@ -59,14 +59,7 @@
 \RequirePackage{multirow}
 \RequirePackage{threeparttable}
 
-\setmainfont[
-  Path=fonts/times/,
-  Extension = .ttf,
-  UprightFont = * ,
-  BoldFont = *bd ,
-  ItalicFont = *i ,
-  BoldItalicFont = *bi
-]{times} %英文默认为Times New Roman
+\setmainfont{Times New Roman} %英文默认为Times New Roman
 
 \renewcommand{\baselinestretch}{1.5} %调整正文为1.5倍行距
 
