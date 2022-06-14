@@ -61,7 +61,7 @@
 
 \setmainfont{Times New Roman} %英文默认为Times New Roman
 
-\renewcommand{\baselinestretch}{1.5} %调整正文为1.5倍行距
+\renewcommand{\baselinestretch}{1.72} %调整正文为1.5倍行距
 
 %取消标题空行
 \RequirePackage{titlesec}
@@ -69,7 +69,7 @@
 \titlespacing{\subsection}{0pt}{1.2ex plus .0ex minus .0ex}{.3ex plus .0ex}
 
 \RequirePackage{geometry}
-  \geometry{a4paper,top=2.5cm,bottom=2.0cm,left=3.0cm,right=2.5cm}
+  \geometry{a4paper,top=27mm,bottom=31mm,left=25mm,right=25mm,bindingoffset=5mm}
 \RequirePackage{amssymb}
 \RequirePackage{setspace}
 \RequirePackage{graphicx}
